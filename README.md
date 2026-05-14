@@ -1,48 +1,96 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=rect&height=120&color=0:0d1117,35:1f6feb,70:238636,100:0d1117&section=header&text=athrav%20seruwam&fontSize=42&fontColor=f0f6fc&fontAlignY=50" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:00ff88,100:0d1117&height=120&section=header&text=athrav%20seruwam&fontSize=42&fontColor=ffffff&fontAlignY=65&animation=fadeIn" width="100%"/>
 
-<p>
-  <strong>Mechatronics Engineering @ University of Waterloo</strong><br/>
-  building full-stack products, AI workflows, and embedded systems that have to work outside a demo.
-</p>
-
-<p>
-  <a href="https://athravseruwam.com"><img src="https://img.shields.io/badge/portfolio-athravseruwam.com-1f6feb?style=flat-square&logo=safari&logoColor=white" alt="Portfolio" /></a>
-  <a href="https://linkedin.com/in/a-seruwam"><img src="https://img.shields.io/badge/linkedin-a--seruwam-0a66c2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="mailto:aseruwam@uwaterloo.ca"><img src="https://img.shields.io/badge/email-aseruwam%40uwaterloo.ca-6e7681?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
-</p>
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=16&duration=3000&pause=800&color=00FF88&center=true&vCenter=true&multiline=true&width=600&height=60&lines=mechatronics+eng+%40+waterloo+%2725%E2%80%9330;building+at+the+intersection+of+hardware+%2B+software)](https://git.io/typing-svg)
 
 </div>
 
 ---
 
+mechatronics engineering student at **University of Waterloo** — building across the full stack, from embedded firmware to cloud infrastructure. i like owning things end-to-end and shipping things that work.
+
+- 🎓 &nbsp;**BASc Mechatronics Eng** @ UWaterloo `'30`
+- 💼 &nbsp;recently: prev **SWE @ Quotograph**
+- 🔧 &nbsp;firmware dev @ **UW Formula Electric** — embedded C/C++ on ECUs
+- 🏆 &nbsp;**2nd place** @ ConHacks 2026
+- 🟢 &nbsp;`open to internships`
+
+---
+
+### tech stack
+
+**Languages**
+
+![Python](https://img.shields.io/badge/Python-0d1117?style=for-the-badge&logo=python&logoColor=00ff88)
+![TypeScript](https://img.shields.io/badge/TypeScript-0d1117?style=for-the-badge&logo=typescript&logoColor=00ff88)
+![JavaScript](https://img.shields.io/badge/JavaScript-0d1117?style=for-the-badge&logo=javascript&logoColor=00ff88)
+![C++](https://img.shields.io/badge/C%2FC%2B%2B-0d1117?style=for-the-badge&logo=cplusplus&logoColor=00ff88)
+![Java](https://img.shields.io/badge/Java-0d1117?style=for-the-badge&logo=coffeescript&logoColor=00ff88)
+![SQL](https://img.shields.io/badge/SQL-0d1117?style=for-the-badge&logo=postgresql&logoColor=00ff88)
+
+**Frameworks & Tools**
+
+![Next.js](https://img.shields.io/badge/Next.js-0d1117?style=for-the-badge&logo=next.js&logoColor=00ff88)
+![React](https://img.shields.io/badge/React-0d1117?style=for-the-badge&logo=react&logoColor=00ff88)
+![FastAPI](https://img.shields.io/badge/FastAPI-0d1117?style=for-the-badge&logo=fastapi&logoColor=00ff88)
+![Node.js](https://img.shields.io/badge/Node.js-0d1117?style=for-the-badge&logo=node.js&logoColor=00ff88)
+![Docker](https://img.shields.io/badge/Docker-0d1117?style=for-the-badge&logo=docker&logoColor=00ff88)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-0d1117?style=for-the-badge&logo=postgresql&logoColor=00ff88)
+![Tailwind](https://img.shields.io/badge/Tailwind-0d1117?style=for-the-badge&logo=tailwindcss&logoColor=00ff88)
+![Stripe](https://img.shields.io/badge/Stripe-0d1117?style=for-the-badge&logo=stripe&logoColor=00ff88)
+
+**Cloud & Infra**
+
+![AWS](https://img.shields.io/badge/AWS-0d1117?style=for-the-badge&logo=amazonaws&logoColor=00ff88)
+![ECS](https://img.shields.io/badge/ECS-0d1117?style=for-the-badge&logo=amazonaws&logoColor=00ff88)
+![S3](https://img.shields.io/badge/S3-0d1117?style=for-the-badge&logo=amazons3&logoColor=00ff88)
+![CloudFront](https://img.shields.io/badge/CloudFront-0d1117?style=for-the-badge&logo=amazonaws&logoColor=00ff88)
+![Bedrock](https://img.shields.io/badge/Bedrock-0d1117?style=for-the-badge&logo=amazonaws&logoColor=00ff88)
+
+---
+
+### projects
+
 <table>
 <tr>
-<td width="58%" valign="top">
+<td width="50%" valign="top">
 
-### What I Build
+### 🤙 [Dextera](https://github.com/athravseruwam07/dextera)
+**★ ConHacks 2026 — 2nd Place**
 
-I like projects with a real system boundary: a browser talking to an API, an AI model producing useful output, a device streaming sensor data, or a cloud service that needs to stay reliable.
+Smart-glove rehab platform for stroke & hand-injury recovery. ESP32 streams live per-finger flex data over WebSockets to a clinician dashboard with rep tracking and recovery analytics.
 
-My best work usually sits at the intersection of:
-
-- product engineering with **Next.js**, **TypeScript**, **FastAPI**, and **PostgreSQL**
-- AI features built around **Gemini API**, **OpenAI API**, and **AWS Bedrock**
-- embedded and hardware-adjacent software using **C/C++**, **CAN/LIN**, and live sensor streams
+`ESP32` `Next.js` `TypeScript` `WebSockets` `Hardware`
 
 </td>
-<td width="42%" valign="top">
+<td width="50%" valign="top">
 
-### Current Signal
+### 📚 [Clarus](https://github.com/athravseruwam07/clarus)
 
-| | |
-|---|---|
-| 🎓 | BASc Mechatronics Engineering, Waterloo `'30` |
-| 💼 | SWE Co-op experience at Quotograph |
-| 🏎️ | Firmware Developer, UW Formula Electric |
-| 🏆 | ConHacks 2025, 2nd Place |
-| 🟢 | Open to software engineering internships |
+AI academic copilot layered on D2L/Brightspace. Playwright connector syncs your LMS and an LLM turns it into a deadline-ranked daily action plan with per-course study briefs.
+
+`Next.js` `TypeScript` `Playwright` `LLMs`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🧑‍🏫 [Doceo](https://github.com/athravseruwam07/doceo)
+
+AI STEM tutor generating full animated whiteboard lessons with Gemini TTS narration in 10–30 seconds. Renders live LaTeX equations, lets students interrupt mid-lesson to redirect.
+
+`Next.js` `FastAPI` `Gemini` `TTS` `Canvas`
+
+</td>
+<td width="50%" valign="top">
+
+### ⚡ Quotograph
+
+Sole dev across 3 commercial construction-tech SaaS products. Shipped AI safety forms, Stripe billing, document approval workflows, YOLO detection routing, and AWS production infra.
+
+`Next.js` `FastAPI` `AWS` `Stripe` `PostgreSQL`
 
 </td>
 </tr>
@@ -50,119 +98,24 @@ My best work usually sits at the intersection of:
 
 ---
 
-## Experience
+### stats
 
-### Quotograph — Software Engineering Co-op
+<div align="center">
 
-Built across construction-tech SaaS products in production: AWS Bedrock permit analysis, AI safety forms, Stripe billing, referral systems, document approval workflows, YOLO inference routing, and AWS deployment work.
+<img height="160" src="https://github-readme-stats.vercel.app/api?username=athravseruwam07&show_icons=true&theme=transparent&hide_border=true&title_color=00ff88&icon_color=00ff88&text_color=ffffff&bg_color=0d1117" />
+<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=athravseruwam07&layout=compact&theme=transparent&hide_border=true&title_color=00ff88&text_color=ffffff&bg_color=0d1117" />
 
-`Next.js` `FastAPI` `PostgreSQL` `AWS` `Stripe` `Bedrock` `YOLO`
-
-### UW Formula Electric — Firmware Developer
-
-Developed C/C++ firmware modules for CAN/LIN communication across ECUs and built signal simulation plus HIL testing workflows for automated validation.
-
-`C/C++` `CAN/LIN` `HIL Testing` `ECU Firmware` `Sensor Data`
-
----
-
-## Projects
-
-<table>
-<tr>
-<td width="33%" valign="top">
-
-### [Dextera](https://github.com/athravseruwam07/dextera)
-
-Smart-glove rehabilitation platform for stroke and hand-injury recovery. Streams five flex-sensor inputs from an ESP32 into a clinician dashboard with session tracking, calibration, and recovery analytics.
-
-**Recognition:** ConHacks 2025, 2nd Place
-
-`ESP32` `TypeScript` `WebSockets` `Node.js` `Next.js`
-
-</td>
-<td width="33%" valign="top">
-
-### [Clarus](https://github.com/athravseruwam07/clarus)
-
-AI academic planner for D2L/Brightspace. Uses a Playwright-authenticated connector to sync course data, then generates daily action plans and per-course study briefs with the OpenAI API.
-
-**Focus:** LMS integration, ingestion pipelines, planning context
-
-`Next.js` `TypeScript` `Playwright` `OpenAI API`
-
-</td>
-<td width="33%" valign="top">
-
-### [Doceo](https://github.com/athravseruwam07/doceo)
-
-AI STEM tutor that generates animated whiteboard lessons with Gemini TTS narration in 10-30 seconds. Supports mid-lesson interruption, real-time LaTeX rendering, and streamed lesson sessions.
-
-**Focus:** AI product UX, FastAPI streaming, generated lessons
-
-`Next.js` `FastAPI` `Gemini API` `TTS` `Canvas`
-
-</td>
-</tr>
-</table>
-
----
-
-## Stack Map
-
-<table>
-<tr>
-<td width="25%" valign="top">
-
-**Frontend**
-
-`Next.js`<br/>
-`React`<br/>
-`TypeScript`<br/>
-`Tailwind CSS`
-
-</td>
-<td width="25%" valign="top">
-
-**Backend**
-
-`FastAPI`<br/>
-`Node.js`<br/>
-`PostgreSQL`<br/>
-`Docker`
-
-</td>
-<td width="25%" valign="top">
-
-**AI / Cloud**
-
-`OpenAI API`<br/>
-`Gemini API`<br/>
-`AWS Bedrock`<br/>
-`ECS / S3 / RDS`
-
-</td>
-<td width="25%" valign="top">
-
-**Embedded**
-
-`C/C++`<br/>
-`CAN/LIN`<br/>
-`HIL Testing`<br/>
-`Sensor Streams`
-
-</td>
-</tr>
-</table>
+</div>
 
 ---
 
 <div align="center">
 
-<strong>portfolio:</strong> <a href="https://athravseruwam.com">athravseruwam.com</a>
-&nbsp;&nbsp;|&nbsp;&nbsp;
-<strong>linkedin:</strong> <a href="https://linkedin.com/in/a-seruwam">a-seruwam</a>
-&nbsp;&nbsp;|&nbsp;&nbsp;
-<strong>email:</strong> <a href="mailto:aseruwam@uwaterloo.ca">aseruwam@uwaterloo.ca</a>
+[![Portfolio](https://img.shields.io/badge/portfolio-athravseruwam.com-0d1117?style=for-the-badge&logo=safari&logoColor=00ff88)](https://athravseruwam.com)
+[![LinkedIn](https://img.shields.io/badge/linkedin-a--seruwam-0d1117?style=for-the-badge&logo=linkedin&logoColor=00ff88)](https://linkedin.com/in/a-seruwam)
+[![Email](https://img.shields.io/badge/email-athravmk%40gmail.com-0d1117?style=for-the-badge&logo=gmail&logoColor=00ff88)](mailto:athravmk@gmail.com)
+[![GitHub](https://img.shields.io/badge/github-athravseruwam07-0d1117?style=for-the-badge&logo=github&logoColor=00ff88)](https://github.com/athravseruwam07)
 
 </div>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:00ff88,100:0d1117&height=80&section=footer" width="100%"/>
